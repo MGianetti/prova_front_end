@@ -64,6 +64,7 @@ const UserForm: React.FC<NewUserProps> = ({ onAddUser }) => {
         setCpfError,
         setTelError,
       });
+      alert("Usuário criado com sucesso!");
       nameInputRef.current!.value = "";
       emailInputRef.current!.value = "";
       cpfInputRef.current!.value = "";
